@@ -1,0 +1,16 @@
+icon_file: integration.svg
+components:
+  - name: AMQP nodes for Node-RED
+    url: https://github.com/amqp/node-red-contrib-rhea
+    description: >-
+      A set of nodes for Node-RED that makes it easy to integrate AMQP
+      in a flow application
+  - name: Camel AMQP component
+    url: https://github.com/apache/camel/blob/master/components/camel-amqp/src/main/docs/amqp-component.adoc
+    description: >-
+      Rule-based routing and mediation.  Camel connects AMQP-based
+      systems to a wide varietsy of protocols and integration endpoints.
+  - name: Collectd AMQP write plugin
+    url: https://github.com/collectd/collectd/blob/master/src/amqp1.c
+    description: >-
+      Filter and distribute system monitoring data over AMQP

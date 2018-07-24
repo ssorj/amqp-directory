@@ -1,0 +1,21 @@
+api.svg:
+  height: 24px
+  width: 24px
+server.svg:
+  height: 24px
+  width: 24px
+integration.svg:
+  height: 24px
+  width: 24px
+tool.svg:
+  height: 24px
+  width: 24px
+activemq.svg:
+  height: 28px
+  width: 28px
+apache.svg:
+  height: 32px
+  width: 32px
+vertx.svg:
+  height: 36px
+  width: 36px

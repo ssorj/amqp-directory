@@ -1,1 +1,1 @@
-# amqp-directory
+# AMQP directory

@@ -1,0 +1,57 @@
+icon_file: server.svg
+components:
+  - name: Apache ActiveMQ
+    url: https://activemq.apache.org/index.html
+    icon_file: activemq.svg
+    tags: [java]
+    description: >-
+      A popular and feature-rich Java message broker
+  - name: Apache ActiveMQ Artemis
+    url: https://activemq.apache.org/artemis/index.html
+    docs_url: https://activemq.apache.org/artemis/docs/latest/index.html
+    icon_file: activemq.svg
+    tags: [java]
+    description: >-
+      A high-performance, multi-protocol Java message broker
+  - name: Apache Qpid Broker-J
+    url: http://qpid.apache.org/components/broker-j/index.html
+    docs_url: http://qpid.apache.org/releases/qpid-broker-j-7.0.6/book/index.html
+    icon_file: apache.svg
+    tags: [java]
+    description: >-
+      A Java message broker that supports all versions of AMQP
+  - name: Apache Qpid C++ Broker
+    url: http://qpid.apache.org/components/cpp-broker/index.html
+    docs_url: http://qpid.apache.org/releases/qpid-cpp-1.38.0/cpp-broker/book/index.html
+    source_url: https://github.com/apache/qpid-cpp
+    packages_url: http://qpid.apache.org/packages.html
+    icon_file: apache.svg
+    tags: [linux, windows]
+    description: >-
+      A message broker implemented in C++
+  - name: Apache Qpid Dispatch
+    url: http://qpid.apache.org/components/dispatch-router/index.html
+    docs_url: http://qpid.apache.org/releases/qpid-dispatch-1.2.0/user-guide/index.html
+    packages_url: http://qpid.apache.org/packages.html
+    source_url: https://github.com/apache/qpid-dispatch
+    icon_file: apache.svg
+    tags: [linux]
+    description: >-
+      A lightweight message router with advanced networking features
+  - name: Red Hat AMQ Broker
+    url: https://access.redhat.com/products/red-hat-amq
+    docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/
+    examples_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#examples
+    install_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#installation
+    tags: [java]
+    description: >-
+      A high-performance, multi-protocol message broker based on
+      Apache ActiveMQ Artemis
+  - name: Red Hat AMQ Interconnect
+    url: https://access.redhat.com/products/red-hat-amq
+    docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_interconnect/
+    packages_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_interconnect/#installation
+    tags: [linux]
+    description: >-
+      A lightweight message router with advanced networking features
+      based on Apache Qpid Dispatch

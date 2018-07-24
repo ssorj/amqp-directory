@@ -1,0 +1,11 @@
+icon_file: server.svg
+components:
+  - name: Microsoft Azure Event Hubs
+    url: https://azure.microsoft.com/en-us/services/event-hubs/
+    description: >-
+      A cloud-scale telemetry service
+  - name: Microsoft Azure Service Bus
+    url: https://azure.microsoft.com/en-us/services/service-bus/
+    docs_url: https://docs.microsoft.com/en-us/azure/service-bus-messaging/
+    description: >-
+      A highly available cloud service for brokered messaging
