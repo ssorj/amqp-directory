@@ -15,10 +15,10 @@ components:
     url: https://qpid.apache.org/proton
     docs_url: http://qpid.apache.org/proton/index.html#documentation
     examples_url: http://qpid.apache.org/proton/index.html#documentation
-    packages_url: http://qpid.apache.org/packages.html
+    package_url: http://qpid.apache.org/packages.html
     source_url: https://github.com/apache/qpid-proton
     icon_file: apache.svg
-    tags: [c, c++, python, ruby]
+    tags: [c, c++, go, python, ruby]
     description: >-
       A reactive messaging API with broad platform and language support
   - name: Apache Qpid Proton-J
@@ -41,12 +41,28 @@ components:
     tags: [vert.x, java]
     description: >-
       A messaging API for Vert.x based on Apache Qpid Proton-J
+  - name: IBM MQ Light API
+    url: https://developer.ibm.com/messaging/mq-light/
+    docs_url: https://developer.ibm.com/messaging/docs/mq-light-api/
+    api_url: https://developer.ibm.com/messaging/docs/mq-light-api/reference/api-reference/
+    download_url: https://developer.ibm.com/messaging/ibm-mq-light-downloads/
+    tags: [java, node.js, python, ruby]
+    description: >-
+      A multi-language, multi-platform messaging API
+  - name: Microsoft Azure AMQP
+    url: https://github.com/Azure/azure-amqp
+    docs_url: https://github.com/Azure/azure-amqp/blob/master/readme.md
+    package_url: https://www.nuget.org/packages/Microsoft.Azure.Amqp/
+    source_url: https://github.com/Azure/azure-amqp
+    tags: [.net, c#]
+    description: >-
+      A C# messaging API
   - name: Microsoft Azure AMQP.Net Lite
     url: https://github.com/Azure/amqpnetlite
     docs_url: http://azure.github.io/amqpnetlite/articles/hello_amqp.html
     api_url: http://azure.github.io/amqpnetlite/api/Amqp.html
     examples_url: https://github.com/Azure/amqpnetlite/tree/master/Examples
-    packages_url: https://www.nuget.org/packages/amqpnetlite
+    package_url: https://www.nuget.org/packages/amqpnetlite
     source_url: https://github.com/Azure/amqpnetlite
     tags: [.net, c#]
     description: >-
@@ -60,13 +76,75 @@ components:
     description: >-
       A general-purpose C library optimized for memory-constrained
       devices
+  - name: Microsoft Azure uAMQP for Python
+    url: https://github.com/azure/azure-uamqp-python/
+    docs_url: https://github.com/Azure/azure-uamqp-python/blob/master/README.rst
+    api_url: https://docs.microsoft.com/en-us/python/api/uamqp/uamqp?view=azure-python
+    examples_url: https://github.com/Azure/azure-uamqp-python/tree/master/samples
+    source_url: https://github.com/azure/azure-uamqp-python/
+    tags: [python]
+    description: >-
+      A Python library optimized for memory-constrained devices
+  - name: Node amqp10
+    url: https://github.com/noodlefrenzy/node-amqp10
+    docs_url: https://noodlefrenzy.github.io/node-amqp10/
+    examples_url: https://github.com/noodlefrenzy/node-amqp10/tree/master/examples
+    package_url: https://npmjs.org/package/amqp10
+    source_url: https://github.com/noodlefrenzy/node-amqp10
+    tags: [node.js, javascript]
+    description: >-
+      A promise-based messaging client for Node.js
+  - name: pack.ag/amqp
+    url: https://github.com/vcabbage/amqp
+    docs_url: https://github.com/vcabbage/amqp/blob/master/README.md
+    api_url: http://godoc.org/pack.ag/amqp
+    examples_url: https://godoc.org/pack.ag/amqp#example-package
+    source_url: https://github.com/vcabbage/amqp
+    tags: [go]
+    description: >-
+      An AMQP 1.0 client implementation for Go
   - name: Rhea
     url: https://github.com/amqp/rhea
     docs_url: https://github.com/amqp/rhea/blob/master/README.md
     api_url: https://github.com/amqp/rhea/blob/master/README.md#api
     examples_url: https://github.com/amqp/rhea#examples
-    packages_url: https://www.npmjs.com/package/rhea
+    package_url: https://www.npmjs.com/package/rhea
     source_url: https://github.com/amqp/rhea
     tags: [node.js, javascript]
     description: >-
       A reactive messaging API for use with Node.js and browsers
+  - name: Solace Messaging API
+    url: https://solace.com/products/api-protocol-support
+    docs_url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/Solace-APIs-Overview.htm
+    download_url: https://dev.solace.com/downloads/
+    tags: [c, ios, java, .net]
+    description: >-
+      A multi-language imperative messaging API
+  - name: Solace Java Messaging API
+    url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/Java-API/java-api-home.htm
+    docs_url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/Java-API/java-get-start.htm
+    api_url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/Java-API/java-only-link.htm
+    examples_url: https://dev.solace.com/samples/solace-samples-java/
+    maven_url: https://mvnrepository.com/artifact/com.solacesystems/sol-jcsmp
+    download_url: https://dev.solace.com/downloads/
+    tags: [java]
+    description: >-
+      A pure-Java imperative messaging API
+  - name: Solace JavaScript Messaging API
+    url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-home.htm
+    docs_url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-API-get-start.htm
+    api_url: https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-only-link.htm
+    examples_url: https://dev.solace.com/samples/solace-samples-javascript/
+    download_url: https://dev.solace.com/downloads/
+    package_url: https://www.npmjs.com/package/solclientjs
+    tags: [node.js, javascript]
+    description: >-
+      An imperative messaging API for use with Node.js and browsers
+  - name: SwiftMQ AMQP 1.0 Client
+    url: http://www.swiftmq.com/products/router/swiftlets/sys_amqp/client/index.html
+    docs_url: http://www.swiftmq.com/products/router/swiftlets/sys_amqp/client/index.html
+    api_url: http://www.swiftmq.com/products/router/swiftlets/sys_amqp/client/javadoc/index.html
+    download_url: http://www.swiftmq.com/downloads/index.html
+    tags: [java]
+    description: >-
+      A thread-safe imperative Java messaging client

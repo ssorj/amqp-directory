@@ -62,14 +62,14 @@ def components(data_file):
         if "examples_url" in component:
             links.append(_html_link(component["examples_url"], "Examples"))
 
-        if "install_url" in component:
-            links.append(_html_link(component["install_url"], "Install"))
+        if "download_url" in component:
+            links.append(_html_link(component["download_url"], "Download"))
 
         if "maven_url" in component:
             links.append(_html_link(component["maven_url"], "Maven"))
 
-        if "packages_url" in component:
-            links.append(_html_link(component["packages_url"], "Packages"))
+        if "package_url" in component:
+            links.append(_html_link(component["package_url"], "Package"))
 
         if "source_url" in component:
             links.append(_html_link(component["source_url"], "Source"))

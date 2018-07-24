@@ -24,7 +24,7 @@ components:
     url: http://qpid.apache.org/components/cpp-broker/index.html
     docs_url: http://qpid.apache.org/releases/qpid-cpp-1.38.0/cpp-broker/book/index.html
     source_url: https://github.com/apache/qpid-cpp
-    packages_url: http://qpid.apache.org/packages.html
+    package_url: http://qpid.apache.org/packages.html
     icon_file: apache.svg
     tags: [linux, windows]
     description: >-
@@ -32,17 +32,28 @@ components:
   - name: Apache Qpid Dispatch
     url: http://qpid.apache.org/components/dispatch-router/index.html
     docs_url: http://qpid.apache.org/releases/qpid-dispatch-1.2.0/user-guide/index.html
-    packages_url: http://qpid.apache.org/packages.html
+    package_url: http://qpid.apache.org/packages.html
     source_url: https://github.com/apache/qpid-dispatch
     icon_file: apache.svg
     tags: [linux]
     description: >-
       A lightweight message router with advanced networking features
+  - name: IBM MQ
+    url: https://www.ibm.com/products/mq
+    docs_url: https://www.ibm.com/support/knowledgecenter/SSFKSJ_8.0.0/com.ibm.mq.amqp.doc/amqp_support.htm
+    description: >-
+      IBM MQ supports AMQP 1.0 since version 8
+  - name: Pivotal RabbitMQ
+    url: https://www.rabbitmq.com/
+    docs_url: https://www.rabbitmq.com/documentation.html
+    download_url: https://www.rabbitmq.com/download.html
+    description: >-
+      A popular open source message broker
   - name: Red Hat AMQ Broker
     url: https://access.redhat.com/products/red-hat-amq
     docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/
     examples_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#examples
-    install_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#installation
+    download_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#installation
     tags: [java]
     description: >-
       A high-performance, multi-protocol message broker based on
@@ -50,8 +61,22 @@ components:
   - name: Red Hat AMQ Interconnect
     url: https://access.redhat.com/products/red-hat-amq
     docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_interconnect/
-    packages_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_interconnect/#installation
+    package_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_interconnect/#installation
     tags: [linux]
     description: >-
       A lightweight message router with advanced networking features
       based on Apache Qpid Dispatch
+  - name: Solace PubSub+ Message Broker
+    url: https://solace.com/products/software
+    docs_url: https://docs.solace.com/Solace-SW-Broker-Set-Up/Setting-Up-SW-Brokers.htm
+    download_url: https://dev.solace.com/downloads/
+    tags: [docker, linux, windows]
+    description: >-
+      A fast messaging router with persistence and flexible deployment
+  - name: SwiftMQ Universal Router
+    url: http://www.swiftmq.com/landing/router/index.html
+    docs_url: http://www.swiftmq.com/products/router/index.html
+    download_url: http://www.swiftmq.com/downloads/index.html
+    tags: [java]
+    description: >-
+      A scalable, high-performance messaging system
