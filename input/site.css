@@ -340,6 +340,10 @@ a#-logotype > span {
     margin: 0 1em 0 0;
 }
 
+#-category-opener > h1 {
+    font-size: 1.7em;
+}
+
 #-category-opener > p {
     font-size: 1.1em;
 }
@@ -399,7 +403,7 @@ a#-logotype > span {
 
 div.components {
     column-count: 2;
-    column-gap: 1em;
+    column-gap: 2em;
     margin-top: 2.4em;
 }
 
