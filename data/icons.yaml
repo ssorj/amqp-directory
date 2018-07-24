@@ -4,6 +4,9 @@ api.svg:
 server.svg:
   height: 24px
   width: 24px
+service.svg:
+  height: 24px
+  width: 24px
 integration.svg:
   height: 24px
   width: 24px

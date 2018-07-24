@@ -319,7 +319,6 @@ a#-logotype > span {
     grid-area: o;
     display: flex;
     align-items: center;
-    font-family: 
 }
 
 #-welcome {
@@ -330,6 +329,19 @@ a#-logotype > span {
 
 #-purpose {
     font-size: 1.3em;
+}
+
+#-category-opener {
+    display: flex;
+    align-items: center;
+}
+
+#-category-opener > * {
+    margin: 0 1em 0 0;
+}
+
+#-category-opener > p {
+    font-size: 1.1em;
 }
 
 @media screen and (max-width: 720px) {

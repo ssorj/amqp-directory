@@ -9,11 +9,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 22 22"
    version="1.1"
-   id="svg26"
+   id="svg6"
    sodipodi:docname="api.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
-     id="metadata30">
+     id="metadata10">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -32,17 +32,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     id="namedview28"
+     inkscape:window-width="3840"
+     inkscape:window-height="2074"
+     id="namedview8"
      showgrid="false"
      inkscape:zoom="10.727273"
-     inkscape:cx="11.186441"
-     inkscape:cy="11"
+     inkscape:cx="-7.8305085"
+     inkscape:cy="10.813559"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="45"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg26" />
+     inkscape:current-layer="svg6" />
   <defs
      id="defs3051">
     <style
@@ -51,15 +51,12 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
       </style>
   </defs>
   <path
-     style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.27966106"
-     d="M 0.66949156,0.1822034 V 6.5805085 H 21.144068 V 0.1822034 Z M 1.9491526,1.4618644 H 19.864407 v 3.838983 H 1.9491526 Z M 0.66949156,7.8601695 V 14.258475 H 21.144068 V 7.8601695 Z M 1.9491526,9.1398305 H 19.864407 V 12.978814 H 1.9491526 Z M 0.66949156,15.538136 v 6.398305 H 21.144068 V 15.538136 Z M 1.9491526,16.817797 H 19.864407 V 20.65678 H 1.9491526 Z"
+     style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.34957612"
+     d="m 9.7110475,0.20339158 c -2.3979674,0 -3.4029347,0.95340272 -3.4029347,3.38712032 v 3.2948634 c 0,1.5031849 -0.046149,3.2447817 -1.3706633,3.2447817 H 4.2521172 v 1.739688 h 0.6853323 c 1.324582,0 1.3706633,1.741597 1.3706633,3.244781 v 3.294864 c 0,2.433717 1.0049673,3.38712 3.4029347,3.38712 v -1.59735 c -1.5986404,0 -1.6210731,-0.645539 -1.6210731,-2.983828 v -2.720246 c 0,-1.121403 -0.276265,-2.790084 -1.6237088,-3.482012 C 7.8137094,10.321233 8.0899744,8.6499421 8.0899744,7.5285253 V 4.7845629 c 0,-2.3382756 0.022392,-2.9838278 1.6210731,-2.9838278 V 0.20338483 m 2.5568135,0 V 1.8007351 c 1.598654,0 1.642161,0.6455522 1.642161,2.9838278 v 2.7439624 c 0,1.1214168 0.276265,2.7927077 1.623708,3.4846487 -1.347443,0.691928 -1.623708,2.360609 -1.623708,3.482012 v 2.720246 c 0,2.338289 -0.04344,2.983828 -1.642161,2.983828 v 1.59735 c 2.397981,0 3.424022,-0.953403 3.424022,-3.38712 v -3.294864 c 0,-1.503184 0.09264,-3.244781 1.394388,-3.244781 h 0.661608 v -1.739688 h -0.661608 c -1.301761,0 -1.394388,-1.7415968 -1.394388,-3.2447817 V 3.5905119 c 0,-2.4337176 -1.026041,-3.38712032 -3.424022,-3.38712032"
      class="ColorScheme-Text"
-     id="path24"
+     id="path4"
      inkscape:connector-curvature="0" />
 </svg>

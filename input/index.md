@@ -20,35 +20,38 @@ AMQP Directory is a collection of
 
 ## Messaging APIs
 
-{{lipsum_25}}
+Libraries for writing AMQP client and server applications.  Messaging
+APIs provide efficient, high-level interprocess communication.
 
 </div>
 <div markdown="1">
 
 ## Messaging servers
 
-{{lipsum_25}}
+Servers for building AMQP messaging networks.  Messaging servers offer
+enhanced reliability in distributed systems.
 
 </div>
 <div markdown="1">
 
 ## Cloud services
 
-{{lipsum_25}}
+Cloud-based AMQP services that simplify the job of deploying and
+managing messaging networks.
 
 </div>
 <div markdown="1">
 
 ## Integrations
 
-{{lipsum_25}}
+AMQP adapters and plugins for other software components.
 
 </div>
 <div markdown="1">
 
 ## Tools
 
-{{lipsum_25}}
+Various utilities for testing and exploring AMQP messaging.
 
 </div>
 </div>

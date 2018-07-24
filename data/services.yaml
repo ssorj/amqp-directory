@@ -1,4 +1,4 @@
-icon_file: server.svg
+icon_file: service.svg
 components:
   - name: Microsoft Azure Event Hubs
     url: https://azure.microsoft.com/en-us/services/event-hubs/
