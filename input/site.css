@@ -45,7 +45,7 @@ br {
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    background-color: #222;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjNTU1Ij48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiM2NjYiPjwvcmVjdD4KPC9zdmc+");
 }
 
 code,
@@ -87,7 +87,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #57a;
+    color: #0d7dac;
 }
 
 a.heading-link {
@@ -228,11 +228,12 @@ section {
 
 #-head {
     padding: 1em 2em;
-    color: white;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiM2NjYiPjwvcmVjdD4KPC9zdmc+");
+    color: #fffb;
 }
 
 #-head a {
-    color: white;
+    color: #fffb;
 }
 
 #-body {
@@ -242,7 +243,7 @@ section {
 
 #-foot {
     padding: 2em;
-    color: #ccc;
+    color: #fffb;
 }
 
 #-foot a {
@@ -297,7 +298,8 @@ section {
 #-global-navigation > a {
     margin: 0 2em 0 0;
     font-size: 1.1em;
-    color: #aaa;
+    font-weight: 600;
+    color: #fffa;
 }
 
 #-global-navigation > a.selected {
@@ -430,14 +432,14 @@ a.component-icon {
     width: 3.5em;
     min-width: 3.5em;
     height: 3.5em;
-    border: 1px solid #57a;
+    border: 1px solid #0d7dac90;
     border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;
 }
 
-div.component:hover > a.component-icon {
-    border: 2px solid #555;
+a.component-icon:hover {
+    border: 1px solid #0d7dac;
 }
 
 a.component-icon > img {
