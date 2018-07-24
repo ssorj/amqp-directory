@@ -48,6 +48,7 @@ components:
   - name: IBM MQ
     url: https://www.ibm.com/products/mq
     docs_url: https://www.ibm.com/support/knowledgecenter/SSFKSJ_8.0.0/com.ibm.mq.amqp.doc/amqp_support.htm
+    tags: [linux, unix, windows, z/os]
     description: >-
       IBM MQ supports AMQP 1.0 since version 8
   - name: Pivotal RabbitMQ

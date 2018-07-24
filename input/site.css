@@ -45,8 +45,7 @@ br {
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.8);
-    text-rendering: optimizeLegibility;
+    background-color: #222;
 }
 
 code,
@@ -229,18 +228,27 @@ section {
 
 #-head {
     padding: 1em 2em;
-    border-bottom: 1px solid #ddd;
+    color: white;
+}
+
+#-head a {
+    color: white;
 }
 
 #-body {
     padding: 2em;
+    background-color: white;
 }
 
 #-foot {
-    border-top: 1px solid #ddd;
     padding: 2em;
+    color: #ccc;
 }
 
+#-foot a {
+    color: white;
+}
+    
 #-head-content, #-body-content, #-foot-content {
     max-width: 1080px;
     margin: 0 auto;
@@ -289,16 +297,17 @@ section {
 #-global-navigation > a {
     margin: 0 2em 0 0;
     font-size: 1.1em;
+    color: #aaa;
 }
 
 #-global-navigation > a.selected {
-    color: black;
+    color: white;
 }
 
 a#-logotype {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 a#-logotype > span {
@@ -418,13 +427,17 @@ div.component:last-of-type {
 }
 
 a.component-icon {
-    width: 4em;
-    min-width: 4em;
-    height: 4em;
-    border: 1px solid #444;
-    border-radius: 2em;
+    width: 3.5em;
+    min-width: 3.5em;
+    height: 3.5em;
+    border: 1px solid #57a;
+    border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;
+}
+
+div.component:hover > a.component-icon {
+    border: 2px solid #555;
 }
 
 a.component-icon > img {
