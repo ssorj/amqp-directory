@@ -21,7 +21,7 @@ components:
   - name: Red Hat AMQ Online
     url: https://www.redhat.com/en/explore/amq-online
     description: >-
-      Managed, self-service messaging in the cloud
+      Managed, self-service AMQ messaging in the cloud
   - name: Red Hat Fuse Online
     url: https://www.redhat.com/en/technologies/jboss-middleware/fuse-online
     description: >-

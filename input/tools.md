@@ -6,8 +6,7 @@ title: Tools - AMQP Directory
 
 # Tools
 
-Utilities and resources for testing and exploring
-[AMQP 1.0](https://www.amqp.org/) messaging
+Tools for exploring, testing, and managing [AMQP 1.0](https://www.amqp.org/) messaging
 
 </div>
 
