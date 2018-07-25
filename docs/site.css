@@ -45,7 +45,7 @@ br {
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjNTU1Ij48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiM2NjYiPjwvcmVjdD4KPC9zdmc+");
+    background-color: #ccc;
 }
 
 code,
@@ -228,12 +228,12 @@ section {
 
 #-head {
     padding: 1em 2em;
-    /* background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiM2NjYiPjwvcmVjdD4KPC9zdmc+"); */
-    color: #fffb;
+    color: #fff9;
+    background-color: #2ea859;
 }
 
 #-head a {
-    color: #fffb;
+    color: #fff9;
 }
 
 #-body {
@@ -243,11 +243,11 @@ section {
 
 #-foot {
     padding: 2em;
-    color: #fffb;
+    color: #000b;
 }
 
 #-foot a {
-    color: white;
+    color: #000;
 }
     
 #-head-content, #-body-content, #-foot-content {
@@ -299,7 +299,6 @@ section {
     margin: 0 2em 0 0;
     font-size: 1.1em;
     font-weight: 600;
-    color: #fffa;
 }
 
 #-global-navigation > a.selected {
@@ -432,7 +431,7 @@ a.component-icon {
     width: 3.5em;
     min-width: 3.5em;
     height: 3.5em;
-    border: 1px solid #0d7dac90;
+    border: 1px solid #0009;
     border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;

@@ -18,3 +18,11 @@ components:
     docs_url: https://docs.microsoft.com/en-us/azure/service-bus-messaging/
     description: >-
       A highly available cloud service for brokered messaging
+  - name: Red Hat AMQ Online
+    url: https://www.redhat.com/en/explore/amq-online
+    description: >-
+      Managed, self-service messaging in the cloud
+  - name: Red Hat Fuse Online
+    url: https://www.redhat.com/en/technologies/jboss-middleware/fuse-online
+    description: >-
+      Highly flexible, cloud-hosted integration

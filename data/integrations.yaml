@@ -8,9 +8,44 @@ components:
   - name: Camel AMQP component
     url: https://github.com/apache/camel/blob/master/components/camel-amqp/src/main/docs/amqp-component.adoc
     description: >-
-      Rule-based routing and mediation.  Camel connects AMQP-based
-      systems to a wide varietsy of protocols and integration endpoints.
+      Rule-based message routing and mediation
   - name: Collectd AMQP write plugin
     url: https://github.com/collectd/collectd/blob/master/src/amqp1.c
     description: >-
       Filter and distribute system monitoring data over AMQP
+  - name: Kafka AMQP bridge
+    url: https://github.com/strimzi/amqp-kafka-bridge
+    description: >-
+      Connect AMQP clients to Kafka clusters
+  - name: OpenWhisk AMQP feed
+    url: https://github.com/cliffjansen/amqp-wsk-feed
+    description: >-
+      An AMQP feed provider for OpenWhisk
+  - name: Oslo Messaging AMQP driver
+    url: https://github.com/openstack/oslo.messaging/tree/master/oslo_messaging/_drivers/amqp1_driver
+    description: >-
+      An AMQP driver for the OpenStack messaging API
+  - name: Rsyslog AMQP output module
+    url: https://github.com/kgiusti/rsyslog-omamqp1
+    docs_url: https://github.com/kgiusti/rsyslog-omamqp1/blob/master/external/python/README.md
+    description: >-
+      Rsyslog plugins for sending log messages to an AMQP message bus
+  - name: Spark Streaming AMQP connector
+    url: https://github.com/radanalyticsio/streaming-amqp
+    docs_url: https://github.com/radanalyticsio/streaming-amqp/blob/master/README.md
+    maven_url: https://github.com/radanalyticsio/streaming-amqp#project-references
+    examples_url: https://github.com/radanalyticsio/streaming-amqp#example
+    description: >-
+      Read AMQP data as a stream in Spark Streaming
+  - name: Spring Boot AMQP starter
+    url: https://github.com/amqphub/amqp-10-jms-spring-boot
+    docs_url: https://github.com/amqphub/amqp-10-jms-spring-boot#spring-configuration
+    examples_url: https://github.com/amqphub/amqp-10-jms-spring-boot/tree/master/amqp-10-jms-spring-boot-examples
+    maven_url: https://github.com/amqphub/amqp-10-jms-spring-boot#amqp-10-jms-spring-boot
+    description: >-
+      Spring Boot starter for AMQP messaging using JMS
+  - name: Vert.x AMQP bridge
+    url: https://github.com/vert-x3/vertx-amqp-bridge
+    docs_url: https://vertx.io/docs/vertx-amqp-bridge/java/
+    description: >-
+      Connect AMQP clients to the Vert.x event bus

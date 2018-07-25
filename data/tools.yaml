@@ -1,10 +1,29 @@
 icon_file: tool.svg
 components:
+  - name: Adverb
+    url: https://github.com/ChugR/Adverb
+    description: >-
+      A tool for summarizing AMQP protocol traces
+  - name: AMQP 1.0 interactive type reference
+    url: http://qpid.apache.org/amqp/type-reference.html
+    description: >-
+      A web interface for exploring the AMQP type system
+  - name: Qpid Bow
+    url: https://github.com/Bynder/qpid-bow
+    description: >-
+      Command-line tools for managing Qpid servers
   - name: Qtools
     url: https://github.com/ssorj/qtools
+    docs_url: https://github.com/ssorj/qtools/blob/master/README.md
     description: >-
-      XXX
+      Simple command-line tools for sending and receiving AMQP messages
   - name: Quiver
     url: https://github.com/ssorj/quiver
     description: >-
-      XXX
+      Tools for testing the performance of messaging clients and servers
+  - name: Wireshark
+    url: https://www.wireshark.org/
+    docs_url: https://www.wireshark.org/#learnWS
+    download_url: https://www.wireshark.org/#download
+    description: >-
+      Wireshark includes a protocol dissector for AMQP 1.0
