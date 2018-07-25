@@ -60,7 +60,7 @@ AMQP Directory is a collection of
   <div class="summary-text">
     <a class="summary-title">Tools</a>
     <p class="summary-description">
-      Utilities and resources for testing and exploring AMQP messaging
+      Resources for testing and exploring AMQP messaging
     </p>
   </div>
 </div>

@@ -1,7 +1,9 @@
 icon_file: tool.svg
 components:
   - name: Adverb
-    url: https://github.com/ChugR/Adverb
+    url: https://github.com/ChugR/Adverb/blob/master/README.md
+    examples_url: http://htmlpreview.github.io/?https://github.com/ChugR/Adverb/blob/master/example/helloworld.html
+    source_url: https://github.com/ChugR/Adverb
     description: >-
       A tool for summarizing AMQP protocol traces
   - name: AMQP 1.0 interactive type reference
@@ -9,22 +11,28 @@ components:
     description: >-
       A web interface for exploring the AMQP type system
   - name: Qpid Bow
-    url: https://github.com/Bynder/qpid-bow
+    url: https://github.com/Bynder/qpid-bow/blob/master/README.rst
+    examples_url: https://github.com/Bynder/qpid-bow/tree/master/examples
+    source_url: https://github.com/Bynder/qpid-bow
     description: >-
-      Command-line tools for managing Qpid servers
+      Command-line tools and a simple messaging API for Qpid servers
   - name: Qtools
-    url: https://github.com/ssorj/qtools
-    docs_url: https://github.com/ssorj/qtools/blob/master/README.md
+    url: https://github.com/ssorj/qtools/blob/master/README.md
+    package_url: https://copr.fedorainfracloud.org/coprs/jross/ssorj/
+    source_url: https://github.com/ssorj/qtools
     description: >-
       Simple command-line tools for sending and receiving AMQP messages
   - name: Quiver
-    url: https://github.com/ssorj/quiver
+    url: https://github.com/ssorj/quiver/blob/master/README.md
+    source_url: https://github.com/ssorj/quiver
     description: >-
-      Tools for testing the performance of messaging clients and servers
+      Test performance across a range of messaging clients and servers
   - name: Maestro
-    url: https://github.com/maestro-performance/maestro-java
+    url: https://github.com/maestro-performance/maestro-java/blob/master/README.md
+    docs_url: https://github.com/maestro-performance/maestro-java/tree/master/extra/doc
+    source_url: https://github.com/maestro-performance/maestro-java
     description: >-
-      A performance testing tool that supports AMQP 1.0
+      Test the performance of multi-node messaging deployments
   - name: Wireshark
     url: https://www.wireshark.org/
     docs_url: https://www.wireshark.org/#learnWS
