@@ -6,7 +6,7 @@ components:
     download_url: https://activemq.apache.org/download.html
     source_url: https://github.com/apache/activemq
     icon_file: activemq.svg
-    tags: [java]
+    tags: [jvm]
     description: >-
       A popular and feature-rich Java message broker
   - name: Apache ActiveMQ Artemis
@@ -15,7 +15,7 @@ components:
     download_url: https://activemq.apache.org/artemis/download.html
     source_url: https://github.com/apache/activemq-artemis
     icon_file: activemq.svg
-    tags: [java]
+    tags: [jvm]
     description: >-
       A high-performance, multi-protocol Java message broker
   - name: Apache Qpid Broker-J
@@ -24,7 +24,7 @@ components:
     download_url: http://qpid.apache.org/download.html
     source_url: https://github.com/apache/qpid-broker-j
     icon_file: apache.svg
-    tags: [java]
+    tags: [jvm]
     description: >-
       A Java message broker that supports all versions of AMQP
   - name: Apache Qpid C++ Broker
@@ -56,13 +56,14 @@ components:
     docs_url: https://www.rabbitmq.com/documentation.html
     download_url: https://www.rabbitmq.com/download.html
     source_url: https://github.com/rabbitmq/rabbitmq-server
+    tags: [docker, linux, unix, windows]
     description: >-
-      A popular open-source message broker
+      A popular open-source message broker with AMQP 1.0 support
   - name: Red Hat AMQ Broker
     url: https://access.redhat.com/products/red-hat-amq
     docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/
     download_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/#installation
-    tags: [java]
+    tags: [jvm]
     description: >-
       A high-performance, multi-protocol message broker based on
       Apache ActiveMQ Artemis
@@ -84,6 +85,6 @@ components:
     url: http://www.swiftmq.com/landing/router/index.html
     docs_url: http://www.swiftmq.com/products/router/index.html
     download_url: http://www.swiftmq.com/downloads/index.html
-    tags: [java]
+    tags: [jvm]
     description: >-
       A scalable, high-performance messaging system
