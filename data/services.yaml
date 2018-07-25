@@ -1,5 +1,10 @@
 icon_file: service.svg
 components:
+  - name: Amazon MQ
+    url: https://aws.amazon.com/amazon-mq/
+    docs_url: https://aws.amazon.com/documentation/amazon-mq/
+    description: >-
+      A managed message broker service for Apache ActiveMQ
   - name: EnMasse
     url: http://enmasse.io/
     docs_url: http://enmasse.io/documentation/master/
@@ -7,7 +12,7 @@ components:
     download_url: http://enmasse.io/downloads/
     source_url: https://github.com/enmasseproject
     description: >-
-      Self-service messaging on Kubernetes
+      Host your own self-service messaging on Kubernetes
   - name: Microsoft Azure Event Hubs
     url: https://azure.microsoft.com/en-us/services/event-hubs/
     docs_url: 

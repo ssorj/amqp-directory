@@ -98,6 +98,12 @@ components:
     tags: [go]
     description: >-
       An AMQP 1.0 client implementation for Go
+  - name: Red Hat AMQ Clients
+    url: https://access.redhat.com/products/red-hat-amq
+    docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html/amq_clients_overview/
+    tags: [c++, jms, java, javascript, node.js, .net, python, ruby]
+    description: >-
+      A multi-language, multi-platform suite of messaging APIs
   - name: Rhea
     url: https://github.com/amqp/rhea/blob/master/README.md
     api_url: https://github.com/amqp/rhea/blob/master/README.md#api
