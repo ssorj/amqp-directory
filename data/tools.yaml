@@ -21,6 +21,10 @@ components:
     url: https://github.com/ssorj/quiver
     description: >-
       Tools for testing the performance of messaging clients and servers
+  - name: Maestro
+    url: https://github.com/maestro-performance/maestro-java
+    description: >-
+      A performance testing tool that supports AMQP 1.0
   - name: Wireshark
     url: https://www.wireshark.org/
     docs_url: https://www.wireshark.org/#learnWS
