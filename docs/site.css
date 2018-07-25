@@ -72,15 +72,6 @@ h6 a {
     color: inherit;
 }
 
-h1.selected,
-h2.selected,
-h3.selected,
-h4.selected,
-h5.selected,
-h6.selected {
-    color: rgba(127, 0, 0, 0.8);
-}
-
 h1 {
     margin-bottom: 0.6em;
 }
@@ -187,39 +178,6 @@ blockquote {
 
 section {
     margin: 1.5em 0;
-}
-
-.two-column {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-}
-
-.three-column {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-}
-
-.four-column {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-}
-
-.ruled {
-    border-top: 1px solid #ddd;
-    padding-top: 2em;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex > section,
-.flex > div {
-    flex: 1 0 0;
 }
 
 #-head, #-body, #-foot {
@@ -358,59 +316,6 @@ a#-logotype > span {
     font-size: 1.1em;
 }
 
-@media screen and (max-width: 720px) {
-    .two-column,
-    .three-column,
-    .four-column {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
-
-    .flex {
-        display: block;
-    }
-
-    .flex > section {
-        margin: 1.5em 0;
-    }
-
-    .flex > section:first-child {
-        margin-top: 0;
-    }
-
-    .flex > section:last-child {
-        margin-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .two-column, .three-column, .four-column {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-}
-
-@media print {
-    body {
-        font-size: 10pt;
-    }
-
-    pre {
-        font-size: 0.9em;
-        overflow: hidden;
-    }
-    
-    #-head, #-foot {
-        display: none;
-    }
-
-    #-body {
-        padding: 0;
-    }
-}
-
 div.components {
     column-count: 2;
     column-gap: 2em;
@@ -435,6 +340,8 @@ a.component-icon {
     border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;
+    position: relative;
+    top: 0.4em;
 }
 
 a.component-icon:hover {
@@ -444,7 +351,6 @@ a.component-icon:hover {
 a.component-icon > img {
     display: block;
     margin: auto;
-    vertical-align: middle;
 }
 
 div.component-text {
@@ -468,17 +374,23 @@ span.component-tags > span {
     font-size: 0.65em;
     font-weight: 600;
     padding: 0.2em 0.8em;
-    margin: 0.2em;
+    margin-right: 0.4em;
     border-radius: 0.8em;
     border: 2px solid #ddd;
     position: relative;
-    top: -0.15em;
+    top: -0.3em;
+}
+
+p.component-links {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p.component-links > a {
     font-weight: 600;
     font-size: 0.9em;
-    margin-right: 1em;
+    margin-right: 0.8em;
 }
 
 div.category-summary {
@@ -493,6 +405,8 @@ a.summary-icon {
     width: 6em;
     height: 6em;
     min-width: 6em;
+    position: relative;
+    top: 0.6em;
     display: flex;
 }
 
@@ -508,6 +422,62 @@ a.summary-title {
     font-family: "Catamaran", sans-serif;
     font-weight: 400;
     font-size: 1.6em;
-    line-height: 1em;
     color: black;
+}
+
+@media screen and (max-width: 769px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #-global-navigation {
+        display: block;
+    }
+
+    #-global-navigation > * {
+        display: block;
+    }
+    
+    #-opener {
+        display: block;
+        margin-bottom: 2em;
+    }
+    
+    #-overview {
+        display: block;
+    }
+
+    #-category-opener {
+        display: block;
+        margin-bottom: 2em;
+    }
+    
+    #-category-opener > h1 {
+        margin-bottom: 1em;
+    }
+    
+    div.components {
+        column-count: 1;
+    }
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+    }
+
+    pre {
+        font-size: 0.9em;
+        overflow: hidden;
+    }
+    
+    #-head, #-foot {
+        display: none;
+    }
+
+    #-body {
+        padding: 0;
+    }
 }
