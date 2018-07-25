@@ -81,105 +81,6 @@ a {
     color: #0d7dac;
 }
 
-a.heading-link {
-    opacity: 0;
-    font-weight: 300;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-}
-
-a.heading-link:hover {
-    opacity: 1;
-}
-
-ol,
-ul,
-dd {
-    padding-left: 1.2em;
-}
-
-ul {
-    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdAAAAHQBMYXlgQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABMSURBVCjPY/j//z8DFtwAxRhyuBTDQAMhDWDF9+/f/wfC2DRhVRwcHPwfhLFpwqrYxcUFjLFpwqkYlyayNJDsJLI8TVawkhVxBJMGABnYvZjQ/qzjAAAAAElFTkSuQmCC");
-}
-
-li,
-dt,
-dd {
-    margin: 0;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-}
-
-li > ul,
-li > ol,
-dd > dl {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-li > p:last-child,
-dd > p:last-child {
-    margin-bottom: 1em;
-}
-
-form input,
-form button {
-    font-family: inherit;
-    font-size: inherit;
-    border: 1px solid #ccc;
-    margin-bottom: 0;
-}
-
-form input {
-    width: 16em;
-}
-
-form button {
-    background-color: rgb(247, 247, 247);
-    padding: 0 0.4em;
-    font-weight: 300;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    border-bottom: 1px solid #ddd;
-    padding: 0.3em 0.5em 0.3em 0;
-    vertical-align: top;
-    text-align: left;
-}
-
-td em,
-th {
-    font-weight: 300;
-    font-style: normal;
-}
-
-hr {
-    border-bottom: 1px solid #ddd;
-}
-
-code,
-pre {
-    background-color: rgb(247, 247, 247);
-}
-
-pre {
-    overflow: auto;
-    padding: 1em;
-}
-
-blockquote {
-    margin-left: 2em;
-}
-
-section {
-    margin: 1.5em 0;
-}
-
 #-head, #-body, #-foot {
     margin-bottom: 0;
 }
@@ -369,6 +270,10 @@ a.component-title {
     margin-right: 0.6em;
 }
 
+a.component-title:hover {
+    color: #0d7dac;
+}
+
 span.component-tags > span {
     color: #888;
     font-size: 0.65em;
@@ -376,7 +281,7 @@ span.component-tags > span {
     padding: 0.2em 0.8em;
     margin-right: 0.4em;
     border-radius: 0.8em;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     position: relative;
     top: -0.3em;
 }
