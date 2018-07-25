@@ -45,7 +45,7 @@ br {
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    background-color: #ccc;
+    background-color: #f6f6f6;
 }
 
 code,
@@ -243,7 +243,7 @@ section {
 
 #-foot {
     padding: 2em;
-    color: #000b;
+    color: #0006;
 }
 
 #-foot a {
@@ -479,4 +479,35 @@ p.component-links > a {
     font-weight: 600;
     font-size: 0.9em;
     margin-right: 1em;
+}
+
+div.category-summary {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+a.summary-icon {
+    margin-right: 2em;
+    border: 2px solid #555;
+    border-radius: 3em;
+    width: 6em;
+    height: 6em;
+    min-width: 6em;
+    display: flex;
+}
+
+a.summary-icon:hover {
+    border: 2px solid #0d7dac;
+}
+
+a.summary-icon > img {
+    margin: auto;
+}
+
+a.summary-title {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1em;
+    color: black;
 }
