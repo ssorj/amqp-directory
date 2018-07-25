@@ -7,9 +7,9 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing,
  * software distributed under the License is distributed on an
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -207,7 +207,7 @@ section {
 #-foot a {
     color: #000;
 }
-    
+
 #-head-content, #-body-content, #-foot-content {
     max-width: 1080px;
     margin: 0 auto;
@@ -341,7 +341,7 @@ a.component-icon {
     margin: 0 1.2em 0 0;
     display: flex;
     position: relative;
-    top: 0.4em;
+    top: 0.2em;
 }
 
 a.component-icon:hover {
@@ -439,12 +439,12 @@ a.summary-title {
     #-global-navigation > * {
         display: block;
     }
-    
+
     #-opener {
         display: block;
         margin-bottom: 2em;
     }
-    
+
     #-overview {
         display: block;
     }
@@ -453,11 +453,11 @@ a.summary-title {
         display: block;
         margin-bottom: 2em;
     }
-    
+
     #-category-opener > h1 {
         margin-bottom: 1em;
     }
-    
+
     div.components {
         column-count: 1;
     }
@@ -472,7 +472,7 @@ a.summary-title {
         font-size: 0.9em;
         overflow: hidden;
     }
-    
+
     #-head, #-foot {
         display: none;
     }

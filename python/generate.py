@@ -14,7 +14,7 @@ _component_html = """
     <p class="component-description">{description}</p>
     <p class="component-links">
       <a href="{url}">Home</a>
-      {links_html}
+{links_html}
     </p>
   </div>
 </div>
