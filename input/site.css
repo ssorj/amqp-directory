@@ -336,7 +336,7 @@ a.summary-title:hover {
 
 div.resources {
     font-size: 1.2em;
-    margin-top: 2em;
+    margin: 2em 0;
 }
 
 @media screen and (max-width: 769px) {
