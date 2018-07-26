@@ -264,7 +264,7 @@ div.component-text > * {
     margin: 0.6em 0;
 }
 
-a.component-title {
+a.component-name {
     color: black;
     font-family: "Catamaran", sans-serif;
     font-size: 1.1em;
@@ -272,7 +272,7 @@ a.component-title {
     margin-right: 0.6em;
 }
 
-a.component-title:hover {
+a.component-name:hover {
     color: #0d7dac;
 }
 
@@ -300,11 +300,11 @@ p.component-links > a {
     margin-right: 0.8em;
 }
 
-div.category-summary {
+div.category {
     display: flex;
 }
 
-a.summary-icon {
+a.category-icon {
     margin-right: 2em;
     border: 2px solid #555;
     border-radius: 3em;
@@ -316,15 +316,15 @@ a.summary-icon {
     display: flex;
 }
 
-a.summary-icon:hover {
+a.category-icon:hover {
     border: 2px solid #0d7dac;
 }
 
-a.summary-icon > img {
+a.category-icon > img {
     margin: auto;
 }
 
-a.summary-title {
+a.category-name {
     font-family: "Catamaran", sans-serif;
     font-weight: 400;
     font-size: 1.6em;
@@ -332,7 +332,7 @@ a.summary-title {
     color: black;
 }
 
-a.summary-title:hover {
+a.category-name:hover {
     color: #0d7dac;
 }
 
@@ -393,8 +393,14 @@ div.resources {
         column-count: 1;
     }
 
-    div.category-summary {
+    div.category {
         margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    body {
+        font-size: 0.9em;
     }
 }
 

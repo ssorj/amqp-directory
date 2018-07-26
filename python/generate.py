@@ -9,7 +9,7 @@ _component_html = """
 <div class="component">
   <a class="component-icon" href="{url}"><img src="images/icons/{icon_file}" height="{icon_height}" width="{icon_width}"/></a>
   <div class="component-text">
-    <a class="component-title" href="{url}">{name}</a>
+    <a class="component-name" href="{url}">{name}</a>
     <span class="component-tags">{tags_html}</span>
     <p class="component-description">{description}</p>
     <p class="component-links">
