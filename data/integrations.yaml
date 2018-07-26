@@ -11,10 +11,12 @@ components:
     url: https://github.com/apache/camel/blob/master/components/camel-amqp/src/main/docs/amqp-component.adoc
     maven_url: https://github.com/apache/camel/blob/master/components/camel-amqp/src/main/docs/amqp-component.adoc
     source_url: https://github.com/apache/camel/tree/master/components/camel-amqp
+    tags: [esb]
     description: >-
       Rule-based message routing and mediation
   - name: Collectd AMQP write plugin
     url: https://github.com/collectd/collectd/blob/master/src/amqp1.c
+    tags: [logging]
     description: >-
       Filter and distribute system monitoring data over AMQP
   - name: Kafka AMQP bridge
@@ -26,18 +28,21 @@ components:
   - name: OpenWhisk AMQP feed
     url: https://github.com/cliffjansen/amqp-wsk-feed/blob/master/README.md
     source_url: https://github.com/cliffjansen/amqp-wsk-feed
+    tags: [serverless]
     description: >-
       An AMQP feed provider for OpenWhisk
   - name: Oslo Messaging AMQP driver
     url: https://docs.openstack.org/oslo.messaging/latest/admin/AMQP1.0.html
     docs_url: https://github.com/openstack/oslo.messaging/blob/master/oslo_messaging/_drivers/amqp1_driver/oslo_messaging_amqp_driver_overview.rst
     source_url: https://github.com/openstack/oslo.messaging/tree/master/oslo_messaging/_drivers/amqp1_driver
+    tags: [openstack]
     description: >-
       An AMQP driver for the OpenStack messaging API
   - name: Rsyslog AMQP output module
     url: https://github.com/kgiusti/rsyslog-omamqp1/blob/master/README.md
     docs_url: https://github.com/kgiusti/rsyslog-omamqp1/blob/master/external/python/README.md
     source_url: https://github.com/kgiusti/rsyslog-omamqp1
+    tags: [logging]
     description: >-
       Rsyslog plugins for sending log messages to an AMQP message bus
   - name: Spark Streaming AMQP connector
@@ -45,6 +50,7 @@ components:
     maven_url: https://github.com/radanalyticsio/streaming-amqp#project-references
     examples_url: https://github.com/radanalyticsio/streaming-amqp#example
     source_url: https://github.com/radanalyticsio/streaming-amqp
+    tags: [analytics]
     description: >-
       An AMQP data source for stream in Spark Streaming
   - name: Spring Boot AMQP starter
@@ -53,6 +59,7 @@ components:
     examples_url: https://github.com/amqphub/amqp-10-jms-spring-boot/tree/master/amqp-10-jms-spring-boot-examples
     maven_url: https://github.com/amqphub/amqp-10-jms-spring-boot#amqp-10-jms-spring-boot
     source_url: https://github.com/amqphub/amqp-10-jms-spring-boot
+    tags: [spring]
     description: >-
       Spring Boot starter for AMQP messaging using JMS
   - name: Vert.x AMQP bridge
@@ -60,5 +67,6 @@ components:
     examples_url: https://github.com/vert-x3/vertx-examples/tree/master/amqp-bridge-examples
     maven_url: https://vertx.io/docs/vertx-amqp-bridge/java/#_using_vert_x_amqp_bridge
     source_url: https://github.com/vert-x3/vertx-amqp-bridge
+    tags: [vert.x]
     description: >-
       Connect AMQP clients to the Vert.x event bus
