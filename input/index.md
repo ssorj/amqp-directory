@@ -16,7 +16,7 @@ AMQP Directory is a collection of
 
 </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="apis.html"><img src="images/icons/api.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="apis.html">Messaging APIs</a>
@@ -26,7 +26,7 @@ AMQP Directory is a collection of
     </p>
   </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="servers.html"><img src="images/icons/server.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="servers.html">Messaging servers</a>
@@ -36,7 +36,7 @@ AMQP Directory is a collection of
     </p>
   </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="services.html"><img src="images/icons/service.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="services.html">Cloud services</a>
@@ -46,7 +46,7 @@ AMQP Directory is a collection of
     </p>
   </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="integrations.html"><img src="images/icons/integration.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="integrations.html">Integrations</a>
@@ -55,7 +55,7 @@ AMQP Directory is a collection of
     </p>
   </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="tools.html"><img src="images/icons/tool.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="tools.html">Tools</a>
@@ -64,7 +64,7 @@ AMQP Directory is a collection of
     </p>
   </div>
 </div>
-<div class="feature-summary">
+<div class="category-summary">
   <a class="summary-icon" href="resources.html"><img src="images/icons/resource.svg" height="40" width="40"/></a>
   <div class="summary-text">
     <a class="summary-title" href="resources.html">Learn more about AMQP</a>

@@ -179,9 +179,10 @@ a#-logotype > span {
     grid: "o o"
           "b b"
           "b b";
-    grid-gap: 2em;
+    grid-gap: 3em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
+    margin: 1em 0 3em 0;
 }
 
 #-opener {
@@ -194,6 +195,7 @@ a#-logotype > span {
     font-size: 1.6em;
     font-weight: 600;
     margin-right: 1.4em;
+    line-height: 2em;
 }
 
 #-purpose {
@@ -298,9 +300,8 @@ p.component-links > a {
     margin-right: 0.8em;
 }
 
-div.feature-summary {
+div.category-summary {
     display: flex;
-    margin-bottom: 2em;
 }
 
 a.summary-icon {
@@ -311,7 +312,7 @@ a.summary-icon {
     height: 6em;
     min-width: 6em;
     position: relative;
-    top: 0.6em;
+    top: 0.2em;
     display: flex;
 }
 
@@ -327,6 +328,7 @@ a.summary-title {
     font-family: "Catamaran", sans-serif;
     font-weight: 400;
     font-size: 1.6em;
+    line-height: 1.2em;
     color: black;
 }
 
@@ -339,24 +341,39 @@ div.resources {
     margin: 2em 0;
 }
 
+@media screen and (max-width: 1025px) {
+    #-global-navigation {
+        font-size: 0.9em;
+    }
+}
+
 @media screen and (max-width: 769px) {
     body {
         font-size: 0.8em;
     }
-}
 
-@media screen and (max-width: 426px) {
     #-global-navigation {
+        font-size: 1em;
         display: block;
     }
 
     #-global-navigation > * {
         display: block;
     }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        font-size: 1em;
+    }
 
     #-opener {
         display: block;
         margin-bottom: 2em;
+    }
+
+    #-welcome {
+        margin-bottom: 1em;
     }
 
     #-overview {
@@ -365,15 +382,19 @@ div.resources {
 
     #-category-opener {
         display: block;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     #-category-opener > h1 {
-        margin-bottom: 1em;
+        margin-bottom: 0.7em;
     }
 
     div.components {
         column-count: 1;
+    }
+
+    div.category-summary {
+        margin-bottom: 2em;
     }
 }
 
