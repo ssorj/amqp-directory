@@ -32,12 +32,11 @@ components:
     description: >-
       An AMQP feed provider for OpenWhisk
   - name: Rsyslog AMQP output module
-    url: https://www.rsyslog.com/
-    docs_url: https://github.com/rsyslog/rsyslog/tree/master/contrib/omamqp1
+    url: https://github.com/rsyslog/rsyslog/blob/master/contrib/omamqp1/README.md
     source_url: https://github.com/rsyslog/rsyslog/tree/master/contrib/omamqp1
     tags: [logging]
     description: >-
-      Rsyslog plugin for sending log messages to an AMQP message bus
+      An Rsyslog plugin for sending log messages to an AMQP message bus
   - name: Spark Streaming AMQP connector
     url: https://github.com/radanalyticsio/streaming-amqp/blob/master/README.md
     maven_url: https://github.com/radanalyticsio/streaming-amqp#project-references

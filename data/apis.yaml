@@ -90,6 +90,14 @@ components:
     tags: [node.js, javascript]
     description: >-
       A promise-based messaging client for Node.js
+  - name: OpenStack oslo.messaging
+    url: https://docs.openstack.org/oslo.messaging/latest
+    docs_url: https://docs.openstack.org/oslo.messaging/latest/admin/AMQP1.0.html
+    source_url: https://git.openstack.org/cgit/openstack/oslo.messaging/tree
+    package_url: https://pypi.org/project/oslo.messaging
+    tags: [openstack, python]
+    description: >-
+      A remote procedure call (RPC) and notification library for Python clients
   - name: pack.ag/amqp
     url: https://github.com/vcabbage/amqp/blob/master/README.md
     api_url: http://godoc.org/pack.ag/amqp
@@ -120,11 +128,3 @@ components:
     tags: [java]
     description: >-
       A thread-safe imperative Java messaging client
-  - name: OpenStack oslo.messaging
-    url: https://docs.openstack.org/oslo.messaging/latest
-    docs_url: https://docs.openstack.org/oslo.messaging/latest/admin/AMQP1.0.html
-    source_url: https://git.openstack.org/cgit/openstack/oslo.messaging/tree
-    package_url: https://pypi.org/project/oslo.messaging
-    tags: [openstack, python]
-    description: >-
-      Remote Procedure Call (RPC) and Notification library for Python clients
