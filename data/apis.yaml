@@ -120,3 +120,11 @@ components:
     tags: [java]
     description: >-
       A thread-safe imperative Java messaging client
+  - name: OpenStack oslo.messaging
+    url: https://docs.openstack.org/oslo.messaging/latest
+    docs_url: https://docs.openstack.org/oslo.messaging/latest/admin/AMQP1.0.html
+    source_url: https://git.openstack.org/cgit/openstack/oslo.messaging/tree
+    package_url: https://pypi.org/project/oslo.messaging
+    tags: [openstack, python]
+    description: >-
+      Remote Procedure Call (RPC) and Notification library for Python clients
