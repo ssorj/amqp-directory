@@ -31,20 +31,13 @@ components:
     tags: [serverless]
     description: >-
       An AMQP feed provider for OpenWhisk
-  - name: Oslo Messaging AMQP driver
-    url: https://docs.openstack.org/oslo.messaging/latest/admin/AMQP1.0.html
-    docs_url: https://github.com/openstack/oslo.messaging/blob/master/oslo_messaging/_drivers/amqp1_driver/oslo_messaging_amqp_driver_overview.rst
-    source_url: https://github.com/openstack/oslo.messaging/tree/master/oslo_messaging/_drivers/amqp1_driver
-    tags: [openstack]
-    description: >-
-      An AMQP driver for the OpenStack messaging API
   - name: Rsyslog AMQP output module
-    url: https://github.com/kgiusti/rsyslog-omamqp1/blob/master/README.md
-    docs_url: https://github.com/kgiusti/rsyslog-omamqp1/blob/master/external/python/README.md
-    source_url: https://github.com/kgiusti/rsyslog-omamqp1
+    url: https://www.rsyslog.com/
+    docs_url: https://github.com/rsyslog/rsyslog/tree/master/contrib/omamqp1
+    source_url: https://github.com/rsyslog/rsyslog/tree/master/contrib/omamqp1
     tags: [logging]
     description: >-
-      Rsyslog plugins for sending log messages to an AMQP message bus
+      Rsyslog plugin for sending log messages to an AMQP message bus
   - name: Spark Streaming AMQP connector
     url: https://github.com/radanalyticsio/streaming-amqp/blob/master/README.md
     maven_url: https://github.com/radanalyticsio/streaming-amqp#project-references
