@@ -82,6 +82,7 @@ a {
 }
 
 header, article, footer {
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -109,7 +110,7 @@ footer a {
     color: #000;
 }
 
-header > div, article > div, footer > dev {
+header > div, article > div, footer > div {
     max-width: 1080px;
     margin: 0 auto;
 }

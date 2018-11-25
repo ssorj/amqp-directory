@@ -81,71 +81,46 @@ a {
     color: #0d7dac;
 }
 
-#-head, #-body, #-foot {
+header, article, footer {
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-#-head {
+header {
     padding: 1em 2em;
     color: #fff9;
     background-color: #2ea859;
 }
 
-#-head a {
+header a {
     color: #fff9;
 }
 
-#-body {
+article {
     padding: 2em;
     background-color: white;
 }
 
-#-foot {
+footer {
     padding: 2em;
     color: #0006;
 }
 
-#-foot a {
+footer a {
     color: #000;
 }
 
-#-head-content, #-body-content, #-foot-content {
+header > div, article > div, footer > div {
     max-width: 1080px;
     margin: 0 auto;
 }
 
-#-head-content {
+header > div {
     font-family: "Catamaran", sans-serif;
 }
 
-#-head-content > * {
-    margin: 0 2em 0 0;
-}
-
-#-head-content > *:last-child {
-    margin: 0;
-}
-
-#-foot-content {
+footer > div {
     font-size: 0.8em;
-}
-
-#-path-navigation {
-    margin: 0;
-    padding: 0;
-    display: inline;
-}
-
-#-path-navigation > li {
-    display: inline;
-}
-
-#-path-navigation > li:after {
-    content: " \00a0\003e\00a0\00a0 ";
-}
-
-#-path-navigation > li:last-child:after {
-    content: none;
 }
 
 #-global-navigation {
@@ -414,11 +389,11 @@ div.resources {
         overflow: hidden;
     }
 
-    #-head, #-foot {
+    header, footer {
         display: none;
     }
 
-    #-body {
+    article {
         padding: 0;
     }
 }
