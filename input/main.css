@@ -151,12 +151,11 @@ a#-logotype > span {
 
 #-overview {
     display: grid;
-    grid: "o o"
-          "b b"
-          "b b";
-    grid-gap: 3em;
+    grid-template-areas: "o o"
+                         "b b"
+                         "b b";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-gap: 3em;
     margin: 1em 0 3em 0;
 }
 
