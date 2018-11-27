@@ -251,6 +251,7 @@ a.component-name:hover {
 }
 
 span.component-tags > span {
+    display: inline-block;
     color: #888;
     font-size: 0.65em;
     font-weight: 600;
