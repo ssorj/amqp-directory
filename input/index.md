@@ -65,7 +65,7 @@ AMQP Directory is a collection of
   </div>
 </div>
 <div class="category">
-  <a class="category-icon" href="resources.html"><img src="images/icons/resource.svg" height="40" width="40"/></a>
+  <a class="category-icon" href="more.html"><img src="images/icons/resource.svg" height="40" width="40"/></a>
   <div class="category-text">
     <a class="category-name" href="resources.html">Learn more about AMQP</a>
     <p class="category-description">

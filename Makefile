@@ -11,6 +11,14 @@ render: clean
 watch:
 	python3 -m transom render --quiet --watch input output
 
+.PHONY: check-links
+check-links: render
+	python3 -m transom check-links input output
+
+.PHONY: check-files
+check-files: render
+	python3 -m transom check-files input docs
+
 .PHONY: clean
 clean:
 	rm -rf output
