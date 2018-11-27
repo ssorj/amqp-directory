@@ -88,12 +88,12 @@ header, article, footer {
 
 header {
     padding: 1em 2em;
-    color: #fff9;
+    color: rgba(255, 255, 255, 0.6);
     background-color: #2ea859;
 }
 
 header a {
-    color: #fff9;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 article {
@@ -103,7 +103,7 @@ article {
 
 footer {
     padding: 2em;
-    color: #0006;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 footer a {
@@ -213,7 +213,7 @@ a.component-icon {
     width: 3.5em;
     min-width: 3.5em;
     height: 3.5em;
-    border: 1px solid #0009;
+    border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;
