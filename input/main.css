@@ -139,6 +139,11 @@ footer > div {
     color: white;
 }
 
+#-pull-request-nav {
+    font-size: 1.2em;
+    margin-bottom: 1.4em;
+}
+
 a#-logotype {
     font-size: 1.5em;
     font-weight: 700;
@@ -322,11 +327,7 @@ div.resources {
     }
 }
 
-@media screen and (max-width: 769px) {
-    body {
-        font-size: 0.8em;
-    }
-
+@media screen and (max-width: 959px) {
     #-global-navigation {
         font-size: 1em;
         display: block;
@@ -334,6 +335,12 @@ div.resources {
 
     #-global-navigation > * {
         display: block;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    body {
+        font-size: 0.8em;
     }
 }
 
