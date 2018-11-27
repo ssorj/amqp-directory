@@ -16,7 +16,7 @@ data/tools.yaml
 
 For example, the Qpid JMS API component looks like this:
 
-```json
+```yaml
 components:
   - name: Apache Qpid JMS
     url: https://qpid.apache.org/components/jms
