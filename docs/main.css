@@ -327,7 +327,7 @@ div.resources {
     }
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 939px) {
     #-global-navigation {
         font-size: 1em;
         display: block;
