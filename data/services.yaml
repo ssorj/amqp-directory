@@ -15,9 +15,14 @@ components:
       Host your own self-service messaging on Kubernetes
   - name: Microsoft Azure Event Hubs
     url: https://azure.microsoft.com/en-us/services/event-hubs/
-    docs_url: 
+    docs_url: https://docs.microsoft.com/en-us/azure/event-hubs/
     description: >-
-      A cloud-scale telemetry service
+      A cloud-scale service for real-time data ingestion
+  - name: Microsoft Azure IoT Hub
+    url: https://azure.microsoft.com/en-us/services/iot-hub/
+    docs_url: https://docs.microsoft.com/en-us/azure/iot-hub/
+    description: >-
+      Connect, monitor, and manage billions of IoT assets
   - name: Microsoft Azure Service Bus
     url: https://azure.microsoft.com/en-us/services/service-bus/
     docs_url: https://docs.microsoft.com/en-us/azure/service-bus-messaging/
@@ -25,9 +30,11 @@ components:
       A highly available cloud service for brokered messaging
   - name: Red Hat AMQ Online
     url: https://www.redhat.com/en/explore/amq-online
+    docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/
     description: >-
       Managed, self-service AMQ messaging in the cloud
   - name: Red Hat Fuse Online
     url: https://www.redhat.com/en/technologies/jboss-middleware/fuse-online
+    docs_url: https://access.redhat.com/documentation/en-us/red_hat_fuse/
     description: >-
       Highly flexible, cloud-hosted integration
