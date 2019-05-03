@@ -54,11 +54,3 @@ components:
     tags: [spring]
     description: >-
       Spring Boot starter for AMQP messaging using JMS
-  - name: Vert.x AMQP bridge
-    url: https://vertx.io/docs/vertx-amqp-bridge/java/
-    examples_url: https://github.com/vert-x3/vertx-examples/tree/master/amqp-bridge-examples
-    maven_url: https://vertx.io/docs/vertx-amqp-bridge/java/#_using_vert_x_amqp_bridge
-    source_url: https://github.com/vert-x3/vertx-amqp-bridge
-    tags: [vert.x]
-    description: >-
-      Connect AMQP clients to the Vert.x event bus

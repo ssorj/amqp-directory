@@ -51,14 +51,11 @@ components:
     tags: [linux, unix, windows, z/os]
     description: >-
       IBM MQ supports AMQP 1.0 since version 8
-  - name: Pivotal RabbitMQ
-    url: https://www.rabbitmq.com/
-    docs_url: https://www.rabbitmq.com/documentation.html
-    download_url: https://www.rabbitmq.com/download.html
-    source_url: https://github.com/rabbitmq/rabbitmq-server
-    tags: [docker, linux, unix, windows]
+  - name: Pivotal RabbitMQ AMQP 1.0 plugin
+    url: https://github.com/rabbitmq/rabbitmq-amqp1.0
+    source_url: https://github.com/rabbitmq/rabbitmq-amqp1.0
     description: >-
-      A popular open-source message broker with AMQP 1.0 support
+      An AMQP 1.0 plugin for the RabbitMQ message broker
   - name: Red Hat AMQ Broker
     url: https://access.redhat.com/products/red-hat-amq
     docs_url: https://access.redhat.com/documentation/en-us/red_hat_amq/7.2/html-single/using_amq_broker/
