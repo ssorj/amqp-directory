@@ -218,7 +218,7 @@ a.component-icon {
     width: 3.5em;
     min-width: 3.5em;
     height: 3.5em;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    border: 0.1em solid rgba(0, 0, 0, 0.6);
     border-radius: 1.75em;
     margin: 0 1.2em 0 0;
     display: flex;
@@ -227,7 +227,7 @@ a.component-icon {
 }
 
 a.component-icon:hover {
-    border: 1px solid #0d7dac;
+    border: 0.1em solid #0d7dac;
 }
 
 a.component-icon > img {
